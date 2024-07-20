@@ -6,7 +6,7 @@
 #' If  providing a large number of profiles without a precomputed distance matrix consider providing a `ncores`
 #' argument so `distanceSP` will calculate alignments in parallel.
 #'
-#' @param SPx a [snowprofileSet] object
+#' @param SPx a [sarp.snowprofile::snowprofileSet] object
 #' @param distmat If you have a precalculated distance matrix, provide it here to compute the medoid on it.
 #' @param clustering index of clusters, if provided instead of identifying the medoid profile of the entire snowprofileSet it will
 #' return a vector of medoids for each cluster

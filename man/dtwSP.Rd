@@ -80,7 +80,7 @@ The individual steps of aligning snow profiles (which can all be managed from th
 \item irregular grid that includes all layer interfaces within the two profiles (i.e., set \code{resamplingRate = 'irregularInterfaces'}) (cf., \link{resampleSPpairs})
 }
 \item Compute a weighted \strong{local cost matrix} from multiple layer characteristics (cf., \link{distanceSPlayers})
-\item \strong{Match the layers} of the profiles with a call to \link{dtw} (eponymous R package)
+\item \strong{Match the layers} of the profiles with a call to \link[dtw]{dtw} (eponymous R package)
 \item Align the profiles by \strong{warping} the query profile onto the reference profile (cf., \link{warpSP})
 \item (optional) If the function has been called with multiple different boundary conditions (global, top-down, or bottom-up alignments),
 the optimal alignment as determined by \link{simSP} or by the DTW distance will be returned.

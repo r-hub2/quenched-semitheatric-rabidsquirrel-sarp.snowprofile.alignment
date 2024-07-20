@@ -15,7 +15,7 @@ clusterSPcenters(
 )
 }
 \arguments{
-\item{SPx}{a \link{snowprofileSet} to be clustered}
+\item{SPx}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} to be clustered}
 
 \item{clustering}{vector of integers (from 1:k) indicating the cluster to which each snow profile is allocated}
 
@@ -26,12 +26,12 @@ or \code{medoids} where the index of the medoid profile is identified}
 
 \item{clustering_old}{same as \code{clustering} but from the previous iteration of a kdba (if provided then this function only computes new centroids when the profiles within a cluster changed)}
 
-\item{cents}{a \link{snowprofileSet} of centroids from the previous iteration; provide \code{NULL} if not available}
+\item{cents}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} of centroids from the previous iteration; provide \code{NULL} if not available}
 
 \item{distmat}{a precomputed distance matrix of class dist (for faster medoid calculations)}
 }
 \value{
-a named \link{snowprofileSet} of centroid/medoids profiles for each cluster where the name refers to the corresponding cluster and is sorted in ascending manner.
+a named \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} of centroid/medoids profiles for each cluster where the name refers to the corresponding cluster and is sorted in ascending manner.
 }
 \description{
 Wrapper for calculating centroids \link{averageSP} or medoids \link{medoidSP} when clustering, with efficient optimization when iterating kdba clustering calculations

@@ -1,6 +1,6 @@
 #' Cluster snow profiles
 #'
-#' This function is the main gateway to [snowprofile] clustering.
+#' This function is the main gateway to [sarp.snowprofile::snowprofile] clustering.
 #'
 #' There are several clustering approaches that can be applied to snow profiles. Most rely on computing a pairwise distance matrix between all profiles
 #' in a snowprofileSet. Current implementations with this approach rely on existing R functions:
@@ -21,7 +21,7 @@
 #' summary statistics such as snow height, height of new snow, presence or absence of weak layers and crusts, etc. The 'fast' clustering approach
 #' uses the partitioning around medoids clustering approach with the 'fast' distance matrix.
 #'
-#' @param SPx a [snowprofileSet] to be clustered
+#' @param SPx a [sarp.snowprofile::snowprofileSet] to be clustered
 #' @param k number of desired cluster numbers
 #' @param type clustering type including `hclust` (default), `pam`, `fanny`, `kdba` and `fast`
 #' @param distmat a precomputed distance matrix of class dist. This results in much faster clustering for `type %in% c('hclust', 'pam', 'fanny')`

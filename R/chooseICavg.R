@@ -13,7 +13,7 @@
 #'
 #' @importFrom stats na.omit
 #'
-#' @param set a [snowprofileSet]
+#' @param set a [sarp.snowprofile::snowprofileSet]
 #' @param n number of profile indices to be picked (i.e., returned)
 #' @param classifyPWLs an argument list for a function call to [sarp.snowprofile::findPWL] which returns relevant PWLs for identifying initial conditions
 #' @param classifyCRs an argument list for a function call to [sarp.snowprofile::findPWL] which returns relevant CR(ust)s for identifying initial conditions

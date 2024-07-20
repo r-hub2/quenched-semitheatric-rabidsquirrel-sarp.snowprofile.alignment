@@ -12,7 +12,7 @@
 #'      - regular grid with a sampling rate that is provided by the user (recommended, cf., [resampleSP]).
 #'      - irregular grid that includes all layer interfaces within the two profiles (i.e., set `resamplingRate = 'irregularInterfaces'`) (cf., [resampleSPpairs])
 #'  3. Compute a weighted **local cost matrix** from multiple layer characteristics (cf., [distanceSPlayers])
-#'  4. **Match the layers** of the profiles with a call to [dtw] (eponymous R package)
+#'  4. **Match the layers** of the profiles with a call to \link[dtw]{dtw} (eponymous R package)
 #'  5. Align the profiles by **warping** the query profile onto the reference profile (cf., [warpSP])
 #'  6. (optional) If the function has been called with multiple different boundary conditions (global, top-down, or bottom-up alignments),
 #'  the optimal alignment as determined by [simSP] or by the DTW distance will be returned.

@@ -1,7 +1,7 @@
 Package: sarp.snowprofile.alignment
 Title: Snow Profile Alignment, Aggregation, and Clustering
-Version: 1.2.3.9000
-Date: 2024-02-07
+Version: 2.0.0
+Date: 2024-07-20
 Authors@R: 
     c(
     person(given = "Florian", family = "Herla", role = c("aut", "cre"), email = "fherla@sfu.ca"),
@@ -25,8 +25,9 @@ Description: Snow profiles describe the vertical (1D) stratigraphy of layered
     facilitates the computation of individual layer distributions and summary 
     statistics that are relevant for avalanche forecasting purposes. 
     For more background information refer to Herla, Horton, Mair,
-    and Haegeli (2021) <doi:10.5194/gmd-14-239-2021>, and Herla, Mair, and Haegeli 
-    (2022) <doi:10.5194/tc-16-3149-2022>.
+    and Haegeli (2021) <doi:10.5194/gmd-14-239-2021>, Herla, Mair, and Haegeli 
+    (2022) <doi:10.5194/tc-16-3149-2022>, and Horton, Herla, and Haegeli (2024)
+    <doi:10.5194/egusphere-2024-1609>.
 URL: https://avalancheresearch.ca/
 License: GPL (>=3)
 Encoding: UTF-8
@@ -40,7 +41,7 @@ Suggests: knitr, rmarkdown, shiny, dendextend, smacof, testthat,
 VignetteBuilder: knitr
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-07-20 10:17:01 UTC; flo
+Packaged: 2024-07-20 10:58:11 UTC; flo
 Author: Florian Herla [aut, cre],
   Pascal Haegeli [aut],
   Simon Horton [aut],

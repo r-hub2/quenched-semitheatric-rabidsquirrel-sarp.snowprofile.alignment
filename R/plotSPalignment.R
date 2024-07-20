@@ -28,10 +28,10 @@
 #' @param mainQu subtitle for query subfigure
 #' @param mainRef subtitle for reference subfigure
 #' @param mainQwarped subtitle for warped query subfigure
-#' @param emphasizeLayers_qu emphasize Layers in query, see [plot.snowprofile]
-#' @param emphasizeLayers_ref emphasize Layers in reference, see [plot.snowprofile]
-#' @param failureLayers_qu draw arrow to failure layers (see [plot.snowprofile])? provide height vector.
-#' @param failureLayers_qu_col color of arrow(s) (individual color string or vector, see [plot.snowprofile])
+#' @param emphasizeLayers_qu emphasize Layers in query, see [sarp.snowprofile::plot.snowprofile]
+#' @param emphasizeLayers_ref emphasize Layers in reference, see [sarp.snowprofile::plot.snowprofile]
+#' @param failureLayers_qu draw arrow to failure layers (see [sarp.snowprofile::plot.snowprofile])? provide height vector.
+#' @param failureLayers_qu_col color of arrow(s) (individual color string or vector, see [sarp.snowprofile::plot.snowprofile])
 #' @param ... Arguments passed to \code{\link{distanceSPlayers}} and \code{\link{dtwSP}}
 #'
 #' @return dtw object with the resampled '$query' and '$reference', as well as the warped query '$queryWarped'

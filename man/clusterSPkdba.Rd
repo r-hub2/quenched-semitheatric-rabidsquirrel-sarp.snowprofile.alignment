@@ -14,7 +14,7 @@ clusterSPkdba(
 )
 }
 \arguments{
-\item{SPx}{a \link{snowprofileSet} to be clustered}
+\item{SPx}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} to be clustered}
 
 \item{k}{number of desired cluster numbers}
 

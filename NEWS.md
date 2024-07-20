@@ -1,4 +1,4 @@
-# sarp.snowprofile.alignment 1.2.3.9000
+# sarp.snowprofile.alignment 2.0.0
 
   - Improved computation speeds of profile alignments by 
       - making bottlenecks more efficient

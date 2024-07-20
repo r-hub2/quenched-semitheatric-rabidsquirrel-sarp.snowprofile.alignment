@@ -17,7 +17,7 @@
 \arguments{
 \item{x}{a clusterSP object output by \link{clusterSP}}
 
-\item{SPx}{a \link{snowprofileSet} to be clustered}
+\item{SPx}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} to be clustered}
 
 \item{centers}{plot either \code{centroids}, \code{medoids} or \code{none} profiles underneath each set of clustered profiles}
 
@@ -28,7 +28,7 @@ e colored irrespective of the layer's hardness. A value of 1 corresponds to no h
 
 \item{SortMethod}{sort profiles within each cluster by either snow depth \code{hs} (default) or \code{unsorted}}
 
-\item{...}{Additional parameters passed to \link{plot.snowprofileSet}}
+\item{...}{Additional parameters passed to \link[sarp.snowprofile:plot.snowprofileSet]{sarp.snowprofile::plot.snowprofileSet}}
 }
 \description{
 Plot the snowprofileSet sorted and divided by clusters with vertical lines. If available also plot

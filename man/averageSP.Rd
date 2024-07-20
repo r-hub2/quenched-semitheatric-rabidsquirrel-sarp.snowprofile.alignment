@@ -38,7 +38,7 @@ dbaSP(
 )
 }
 \arguments{
-\item{SPx}{SPx a \link{snowprofileSet} object. Note that the profile layers need to contain a column
+\item{SPx}{SPx a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} object. Note that the profile layers need to contain a column
 called \verb{$layerOfInterest} which classifies weak layers. While \link{averageSP} will label weak layers automatically if not done by the user beforehand, \link{dbaSP} won't do that but fail instead!;
 consider thinking about how you want to label weak layers, see Description, \code{classifyPWLs} below, and the references.
 Also note, that if you wish to average the \emph{rescaled} profile set, do so manually before calling this function (see examples).}

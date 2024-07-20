@@ -38,7 +38,7 @@ c(
     author   = c(
       person(given = "Simon", family = "Horton", email = "shorton@avalanche.ca"),
       person(given = "Florian", family = "Herla"),
-      person(given = "Pascal", family = "Haegeli"),
+      person(given = "Pascal", family = "Haegeli")
     ),
     journal  = "EGUsphere [preprint]",
     year     = "2024",

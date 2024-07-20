@@ -6,8 +6,8 @@
 #'  2. Assessing the similarity of the aligned profiles based on avalanche hazard relevant characteristics
 #'  3. Convert the similarity score into a distance value between `[0, 1]`
 #'
-#' @param SPx a [snowprofileSet] object (or a single snowprofile if SP2 is provided)
-#' @param SP2 a [snowprofile] object if SPx is also a snowprofile and a single pairwise distance is to be computed
+#' @param SPx a [sarp.snowprofile::snowprofileSet] object (or a single snowprofile if SP2 is provided)
+#' @param SP2 a [sarp.snowprofile::snowprofile] object if SPx is also a snowprofile and a single pairwise distance is to be computed
 #' @param output type of output to return, either a class `dist` (default) or `matrix`
 #' @param n_cores number of nodes to create for a cluster using the  parallel package to do distance matrix calculation in parallel (default is serial calculations)
 #' @param symmetric only compute one of two alignments dtwSP(A, B) or dtwSP(B, A) rather than taking the min distance (when diminished accuracy is

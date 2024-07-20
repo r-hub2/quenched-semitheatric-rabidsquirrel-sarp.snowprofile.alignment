@@ -7,7 +7,7 @@
 medoidSP(SPx, distmat = NULL, clustering = NULL, keepDistmat = FALSE, ...)
 }
 \arguments{
-\item{SPx}{a \link{snowprofileSet} object}
+\item{SPx}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} object}
 
 \item{distmat}{If you have a precalculated distance matrix, provide it here to compute the medoid on it.}
 

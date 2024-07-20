@@ -2,16 +2,16 @@
 #'
 #' Wrapper for calculating centroids [averageSP] or medoids [medoidSP] when clustering, with efficient optimization when iterating kdba clustering calculations
 #'
-#' @param SPx a [snowprofileSet] to be clustered
+#' @param SPx a [sarp.snowprofile::snowprofileSet] to be clustered
 #' @param clustering vector of integers (from 1:k) indicating the cluster to which each snow profile is allocated
 #' @param config a list providing the necessary hyperparameters for distance and average calculations. Use [clusterSPconfig] functions for convenience!
 #' @param centers type of center to determine, either `centroids` (default) where an average profile is computed for each cluster
 #'                or `medoids` where the index of the medoid profile is identified
 #' @param clustering_old same as `clustering` but from the previous iteration of a kdba (if provided then this function only computes new centroids when the profiles within a cluster changed)
-#' @param cents a [snowprofileSet] of centroids from the previous iteration; provide `NULL` if not available
+#' @param cents a [sarp.snowprofile::snowprofileSet] of centroids from the previous iteration; provide `NULL` if not available
 #' @param distmat a precomputed distance matrix of class dist (for faster medoid calculations)
 #'
-#' @return a named [snowprofileSet] of centroid/medoids profiles for each cluster where the name refers to the corresponding cluster and is sorted in ascending manner.
+#' @return a named [sarp.snowprofile::snowprofileSet] of centroid/medoids profiles for each cluster where the name refers to the corresponding cluster and is sorted in ascending manner.
 #' @author fherla shorton
 #' @seealso [clusterSPkdba], [dbaSP]
 #' @importFrom stats as.dist

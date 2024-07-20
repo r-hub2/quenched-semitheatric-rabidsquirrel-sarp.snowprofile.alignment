@@ -19,7 +19,7 @@
 #' Identically to [dbaSP], weak layers need to be labeled prior to this function call, see [dbaSP] and [sarp.snowprofile::labelPWL]. Note that only daily sampling is
 #' allowed at this point (i.e., one profile per grid point per day).
 #' @param sm a summary of `SPx` containing meta-data
-#' @param AvgDayBefore an average [snowprofile] from the previous day. This is only necessary if you want to resume the computation
+#' @param AvgDayBefore an average [sarp.snowprofile::snowprofile] from the previous day. This is only necessary if you want to resume the computation
 #' mid season.
 #' @param DateEnd an end date character string (`"YYYY-MM-DD"`) if you only want to compute the timeseries up to a certain point
 #' in time. Defaults to the future-most date contained in the meta-data object `sm`.
@@ -41,7 +41,7 @@
 #' @param weights a [dtwSP] parameter that sets the according weights to the `dims` specified above.
 #' @param ... any other parameters passed on to [dbaSP] and then [dtwSP].
 #'
-#' @return A list of class `avgSP_timeseries` containing the fields `$avgs` with a [snowprofileSet] of the average profiles at each day.
+#' @return A list of class `avgSP_timeseries` containing the fields `$avgs` with a [sarp.snowprofile::snowprofileSet] of the average profiles at each day.
 #' If `keep.profiles == TRUE` a field `$sets` with the according profiles informing the average profile at each day (which can be
 #' used to [backtrackLayers] to compute summary statistics of the averaged layers). And two fields `$call` and `$meta`. The
 #' latter contains several useful meta-information such as `...$date`, `...$hs`, `...$hs_median`, `...$thicknessPPDF_median`, or `...$rmse`, which gauges

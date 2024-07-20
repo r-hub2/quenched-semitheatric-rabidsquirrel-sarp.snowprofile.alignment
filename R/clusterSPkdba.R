@@ -1,6 +1,6 @@
 #' K-dimensional barycentric average clustering for snow profiles
 #'
-#' @param SPx a [snowprofileSet] to be clustered
+#' @param SPx a [sarp.snowprofile::snowprofileSet] to be clustered
 #' @param k number of desired cluster numbers
 #' @param config a list providing the necessary hyperparameters. Use [clusterSPconfig] function with `type = kdba` for convenience!
 #' @param centers type of center to determine, either `centroids` (default) where an average profile is computed for each cluster

@@ -17,9 +17,9 @@ distanceSP(
 )
 }
 \arguments{
-\item{SPx}{a \link{snowprofileSet} object (or a single snowprofile if SP2 is provided)}
+\item{SPx}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} object (or a single snowprofile if SP2 is provided)}
 
-\item{SP2}{a \link{snowprofile} object if SPx is also a snowprofile and a single pairwise distance is to be computed}
+\item{SP2}{a \link[sarp.snowprofile:snowprofile]{sarp.snowprofile::snowprofile} object if SPx is also a snowprofile and a single pairwise distance is to be computed}
 
 \item{output}{type of output to return, either a class \code{dist} (default) or \code{matrix}}
 

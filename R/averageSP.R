@@ -17,7 +17,7 @@
 #'
 #'
 #' @describeIn averageSP convenient wrapper function
-#' @param SPx SPx a [snowprofileSet] object. Note that the profile layers need to contain a column
+#' @param SPx SPx a [sarp.snowprofile::snowprofileSet] object. Note that the profile layers need to contain a column
 #' called `$layerOfInterest` which classifies weak layers. While [averageSP] will label weak layers automatically if not done by the user beforehand, [dbaSP] won't do that but fail instead!;
 #' consider thinking about how you want to label weak layers, see Description, `classifyPWLs` below, and the references.
 #' Also note, that if you wish to average the *rescaled* profile set, do so manually before calling this function (see examples).

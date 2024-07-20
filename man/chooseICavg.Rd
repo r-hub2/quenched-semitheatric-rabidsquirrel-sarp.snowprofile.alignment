@@ -14,7 +14,7 @@ chooseICavg(
 )
 }
 \arguments{
-\item{set}{a \link{snowprofileSet}}
+\item{set}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet}}
 
 \item{n}{number of profile indices to be picked (i.e., returned)}
 

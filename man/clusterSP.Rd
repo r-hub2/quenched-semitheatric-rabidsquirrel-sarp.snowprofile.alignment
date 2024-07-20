@@ -16,7 +16,7 @@ clusterSP(
 )
 }
 \arguments{
-\item{SPx}{a \link{snowprofileSet} to be clustered}
+\item{SPx}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} to be clustered}
 
 \item{k}{number of desired cluster numbers}
 
@@ -50,7 +50,7 @@ from \link{fanny.object}, \link{pam.object}, iteration history from \link{cluste
 }
 }
 \description{
-This function is the main gateway to \link{snowprofile} clustering.
+This function is the main gateway to \link[sarp.snowprofile:snowprofile]{sarp.snowprofile::snowprofile} clustering.
 }
 \details{
 There are several clustering approaches that can be applied to snow profiles. Most rely on computing a pairwise distance matrix between all profiles
