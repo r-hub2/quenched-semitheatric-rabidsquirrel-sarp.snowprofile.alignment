@@ -5,7 +5,7 @@
 \alias{SPgroup2}
 \title{Additional example set of snow profiles}
 \format{
-A \link[sarp.snowprofile]{snowprofileSet}
+A \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet}
 }
 \usage{
 SPgroup2
@@ -19,6 +19,6 @@ plot(SPgroup2, SortMethod = "unsorted")
 
 }
 \seealso{
-\link[sarp.snowprofile]{SPgroup}
+\link[sarp.snowprofile:SPgroup]{sarp.snowprofile::SPgroup}
 }
 \keyword{datasets}

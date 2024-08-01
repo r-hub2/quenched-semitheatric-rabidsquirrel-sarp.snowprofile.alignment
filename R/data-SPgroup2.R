@@ -4,9 +4,9 @@
 #'
 #' @docType data
 #'
-#' @format A \link[sarp.snowprofile]{snowprofileSet}
+#' @format A [sarp.snowprofile::snowprofileSet]
 #'
-#' @seealso \link[sarp.snowprofile]{SPgroup}
+#' @seealso [sarp.snowprofile::SPgroup]
 #'
 #' @examples
 #'

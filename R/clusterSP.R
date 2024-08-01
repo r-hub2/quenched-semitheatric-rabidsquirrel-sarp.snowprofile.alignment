@@ -38,7 +38,7 @@
 #' - `centroids`: snowprofileSet containing the centroid profile for each cluster (if calculated)
 #' - `tree`: object of class 'hclust' describing the tree output by hclust
 #' - `...`: all other outputs provided by the clustering algorithms (e.g., a membership matrix
-#'          from [fanny.object], [pam.object], iteration history from [clusterSPkdba])
+#'          from `fanny.object`, `pam.object`, iteration history from [clusterSPkdba])
 #' - `type`: type of clustering as provided by input argument
 #' - `call`: a copy of the clusterSP function call
 #' - `SPx`: a copy of the input snowprofileSet (if `keepSPx = TRUE`)

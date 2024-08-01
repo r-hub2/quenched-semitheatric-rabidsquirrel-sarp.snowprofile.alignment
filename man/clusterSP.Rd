@@ -42,7 +42,7 @@ a list of class \code{clusterSP} containing:
 \item \code{centroids}: snowprofileSet containing the centroid profile for each cluster (if calculated)
 \item \code{tree}: object of class 'hclust' describing the tree output by hclust
 \item \code{...}: all other outputs provided by the clustering algorithms (e.g., a membership matrix
-from \link{fanny.object}, \link{pam.object}, iteration history from \link{clusterSPkdba})
+from \code{fanny.object}, \code{pam.object}, iteration history from \link{clusterSPkdba})
 \item \code{type}: type of clustering as provided by input argument
 \item \code{call}: a copy of the clusterSP function call
 \item \code{SPx}: a copy of the input snowprofileSet (if \code{keepSPx = TRUE})

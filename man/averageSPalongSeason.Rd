@@ -26,7 +26,7 @@ averageSPalongSeason(
 )
 }
 \arguments{
-\item{SPx}{a \link{snowprofileSet} that contains all profiles from the region to be averaged at all days of the season for which you want to compute the average profile.
+\item{SPx}{a \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet} that contains all profiles from the region to be averaged at all days of the season for which you want to compute the average profile.
 Identically to \link{dbaSP}, weak layers need to be labeled prior to this function call, see \link{dbaSP} and \link[sarp.snowprofile:findPWL]{sarp.snowprofile::labelPWL}. Note that only daily sampling is
 allowed at this point (i.e., one profile per grid point per day).}
 

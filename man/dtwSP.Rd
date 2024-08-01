@@ -45,7 +45,7 @@ To resample onto the smallest possible mutual (original, likely irregular) depth
 
 \item{simType}{the similarity between two profiles can be computed with different approaches, see \link{simSP}}
 
-\item{...}{Arguments passed to \code{\link{distanceSPlayers}}, and \code{\link{dtw}}, and \link{simSP} e.g.
+\item{...}{Arguments passed to \link{distanceSPlayers}, and \link[dtw:dtw]{dtw::dtw}, and \link{simSP} e.g.
 \itemize{
 \item \code{dims}, \code{weights} (defaults specified in \code{\link{distanceSPlayers}})
 \item \code{ddateNorm}, numeric, normalize deposition date (default specified in \code{\link{distanceSPlayers}})
@@ -80,7 +80,7 @@ The individual steps of aligning snow profiles (which can all be managed from th
 \item irregular grid that includes all layer interfaces within the two profiles (i.e., set \code{resamplingRate = 'irregularInterfaces'}) (cf., \link{resampleSPpairs})
 }
 \item Compute a weighted \strong{local cost matrix} from multiple layer characteristics (cf., \link{distanceSPlayers})
-\item \strong{Match the layers} of the profiles with a call to \link[dtw]{dtw} (eponymous R package)
+\item \strong{Match the layers} of the profiles with a call to \link[dtw:dtw]{dtw::dtw} (eponymous R package)
 \item Align the profiles by \strong{warping} the query profile onto the reference profile (cf., \link{warpSP})
 \item (optional) If the function has been called with multiple different boundary conditions (global, top-down, or bottom-up alignments),
 the optimal alignment as determined by \link{simSP} or by the DTW distance will be returned.

@@ -15,7 +15,7 @@
 #'
 #' @importFrom stats filter
 #'
-#' @param SPx a [snowprofileSet] that contains all profiles from the region to be averaged at all days of the season for which you want to compute the average profile.
+#' @param SPx a [sarp.snowprofile::snowprofileSet] that contains all profiles from the region to be averaged at all days of the season for which you want to compute the average profile.
 #' Identically to [dbaSP], weak layers need to be labeled prior to this function call, see [dbaSP] and [sarp.snowprofile::labelPWL]. Note that only daily sampling is
 #' allowed at this point (i.e., one profile per grid point per day).
 #' @param sm a summary of `SPx` containing meta-data
