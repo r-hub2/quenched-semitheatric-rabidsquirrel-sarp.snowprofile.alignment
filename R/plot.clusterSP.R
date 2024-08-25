@@ -7,7 +7,7 @@
 #' @param SPx a [sarp.snowprofile::snowprofileSet] to be clustered
 #' @param centers plot either `centroids`, `medoids` or `none` profiles underneath each set of clustered profiles
 #' @param include plot `rta` or `p_unstable` distributions next to centroids
-#' @param hardnessResidualSPx Value within (0, 1)⁠ to control the minimum horizontal space of each layer that will be
+#' @param hardnessResidualSPx Value within (0, 1) to control the minimum horizontal space of each layer that will be
 #' e colored irrespective of the layer's hardness. A value of 1 corresponds to no hardness being shown
 #' @param SortMethod sort profiles within each cluster by either snow depth `hs` (default) or `unsorted`
 #' @param ... Additional parameters passed to [sarp.snowprofile::plot.snowprofileSet]

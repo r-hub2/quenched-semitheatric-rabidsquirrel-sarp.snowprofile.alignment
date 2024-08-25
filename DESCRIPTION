@@ -1,7 +1,7 @@
 Package: sarp.snowprofile.alignment
 Title: Snow Profile Alignment, Aggregation, and Clustering
-Version: 2.0.1.9000
-Date: 2024-07-20
+Version: 2.0.2
+Date: 2024-08-25
 Authors@R: 
     c(
     person(given = "Florian", family = "Herla", role = c("aut", "cre"), email = "fherla@sfu.ca"),
@@ -41,7 +41,7 @@ Suggests: knitr, rmarkdown, shiny, dendextend, smacof, testthat,
 VignetteBuilder: knitr
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-08-01 17:29:40 UTC; flo
+Packaged: 2024-08-25 09:41:13 UTC; flo
 Author: Florian Herla [aut, cre],
   Pascal Haegeli [aut],
   Simon Horton [aut],

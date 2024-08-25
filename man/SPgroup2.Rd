@@ -11,7 +11,7 @@ A \link[sarp.snowprofile:snowprofileSet]{sarp.snowprofile::snowprofileSet}
 SPgroup2
 }
 \description{
-Additional example set of snow profiles. The main difference to the example data set \link{SPgroup} is that \code{SPgroup2} contains various different stability indices.
+Additional example set of snow profiles. The main difference to the example data set \link[sarp.snowprofile:SPgroup]{sarp.snowprofile::SPgroup} is that \code{SPgroup2} contains various different stability indices.
 }
 \examples{
 

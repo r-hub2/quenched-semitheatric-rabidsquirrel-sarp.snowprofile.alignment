@@ -1,5 +1,3 @@
-# sarp.snowprofile.alignment 2.0.1.9000 (current development)
-
 # sarp.snowprofile.alignment 2.0.0
 
   - Improved computation speeds of profile alignments by 

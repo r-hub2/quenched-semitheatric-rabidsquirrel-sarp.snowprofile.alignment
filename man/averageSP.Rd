@@ -74,7 +74,7 @@ Meaningful range is between \verb{[0.1, 0.5]}. Values larger than 0.5 get set to
 \item{...}{alignment configurations which are passed on to \link{dbaSP} and then further to \link{dtwSP}. Note, that you can't provide \code{rescale2refHS}, which is always set to FALSE. If you wish to rescale
 the profiles, read the description of the \code{SPx} parameter and the examples.}
 
-\item{Avg}{the initial average snow profile: either a \link{snowprofile} object or an index to an initial average profile in SPx}
+\item{Avg}{the initial average snow profile: either a \link[sarp.snowprofile:snowprofile]{sarp.snowprofile::snowprofile} object or an index to an initial average profile in SPx}
 
 \item{resamplingRate}{Resampling rate for a regular depth grid among the profiles}
 

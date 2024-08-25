@@ -23,7 +23,7 @@
 
 \item{include}{plot \code{rta} or \code{p_unstable} distributions next to centroids}
 
-\item{hardnessResidualSPx}{Value within (0, 1)⁠ to control the minimum horizontal space of each layer that will be
+\item{hardnessResidualSPx}{Value within (0, 1) to control the minimum horizontal space of each layer that will be
 e colored irrespective of the layer's hardness. A value of 1 corresponds to no hardness being shown}
 
 \item{SortMethod}{sort profiles within each cluster by either snow depth \code{hs} (default) or \code{unsorted}}
